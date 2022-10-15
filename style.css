@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* overflow:scroll; */
+}
+.container {
+    width: 800px;
+    height: 500px;
+    background-color:	#331405;
+    position: relative;
+    overflow: scroll;
+}
+.png{
+    width: 267px;
+    position: absolute;
+    bottom: 0;
+    overflow: scroll; 
+}
+.png1{
+    overflow: scroll; 
+    width: 267px;
+    position: absolute;
+    right: 0;
+    transform: rotate(180deg);
+}
