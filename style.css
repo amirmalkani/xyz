@@ -1,27 +1,27 @@
+*{
+    padding: 0;margin: 0px;    
+}
 body{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* overflow:scroll; */
 }
 .container {
     width: 65vw;
-    height: 500px;
-    background-color:	#331405;
+    height: 75vh;
+    background-color:	#f1e289;
+    /* background-color:	#331405; */
     position: relative;
-    overflow: scroll;
 }
 .png{
-    width: 267px;
+    width: 15vw;
     position: absolute;
     bottom: 0;
-    overflow: scroll; 
 }
 .png1{
-    overflow: scroll; 
-    width: 267px;
+    width: 15vw;
     position: absolute;
     right: 0;
     transform: rotate(180deg);
