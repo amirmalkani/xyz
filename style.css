@@ -7,7 +7,7 @@ body{
     /* overflow:scroll; */
 }
 .container {
-    width: 800px;
+    width: 65vw;
     height: 500px;
     background-color:	#331405;
     position: relative;
