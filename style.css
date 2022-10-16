@@ -2,6 +2,10 @@
     padding: 0;margin: 0px;    
 }
 body{
+    background-image: linear-gradient(to bottom right, orange, red);
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -11,7 +15,8 @@ body{
 .container {
     width: 65vw;
     height: 75vh;
-    background-color:	#f1e289;
+    background-image: linear-gradient(to bottom right, #f1e289, yellow);
+    /* background-color:	#f1e289; */
     /* background-color:	#331405; */
     position: relative;
 }
