@@ -1,6 +1,27 @@
+.h-middle{
+    width:fit-content;
+    margin: auto;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+.mt-1{
+    margin-top: 5px;
+}
+
+.cursive{
+    font-family: 'Dancing Script', cursive;
+}
+
+.relative{
+    position: relative;
+}
+
 *{
     padding: 0;margin: 0px;    
 }
+
 body{
     background-image: linear-gradient(to bottom right, orange, red);
     /* background-position: center; */
@@ -13,6 +34,7 @@ body{
     align-items: center;
 }
 .container {
+    padding: 12px;
     width: 65vw;
     height: 75vh;
     background-image: linear-gradient(to bottom right, #f1e289, yellow);
@@ -30,4 +52,15 @@ body{
     position: absolute;
     right: 0;
     transform: rotate(180deg);
+}
+.weds{
+    height: 10vh;
+}
+.f-height{
+    font-size: 3rem;
+}
+.a{
+    position: absolute;
+    top: 20px;
+    left: 25px;
 }
